@@ -7,6 +7,7 @@ import Script from "next/script";
 
 export const metadata = {
   title: { default: "Ayush" },
+  metadataBase: new URL("https://ayushtomar.tech"),
   creator: "Ayush Pratap Singh",
   publisher: "Ayush Pratap Singh",
   description:
@@ -78,7 +79,7 @@ export default function RootLayout({ children }) {
         <script defer src="https://cloud.umami.is/script.js" data-website-id="928d7257-0d8c-4850-8b7a-c19a84966efe"></script>
       </head>
       <link rel="shortcut icon" href="/images/profile.jpg" />
-      <body className="bg-white dark:bg-slate-950">
+      <body className="bg-dark dark:bg-slate-950">
         <Providers>
           <AnimateEnter>
             <>

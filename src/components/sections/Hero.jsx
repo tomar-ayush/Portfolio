@@ -13,14 +13,14 @@ const Hero = () => {
             <div>
               <h1 className="max-w-3xl text-2xl font-bold dark:text-zinc-50 md:text-5xl md:leading-tight ">
                 Hey! I'm{" "}
-                <RoughNotation
+                {/* <RoughNotation
                   type="highlight"
                   show
                   color="#f59e0b"
                   animationDelay={1000}
-                >
+                > */}
                   Ayush Pratap Singh
-                </RoughNotation>{" "}
+                {/* </RoughNotation>{" "} */}
               </h1>
               <p className="mt-8 max-w-2xl text-sm tracking-wide text-muted-foreground md:text-base md:leading-loose">
                 I am a third-year B.Tech Computer Science student with a strong passion for backend and full-stack web development. I enjoy building scalable, efficient systems and diving deep into understanding how things work at a low level. With a solid foundation in programming languages like Java,  C++, JavaScript, and TypeScript, I have honed my skills in frameworks such as React.js, Node.js, Express.js, and Next.js.
@@ -45,7 +45,7 @@ const Hero = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="hover:text-primary h-5 w-5 transition duration-150"
                       height="1em"
@@ -65,7 +65,7 @@ const Hero = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="hover:text-primary h-5 w-5 transition duration-150"
                       height="1em"
@@ -85,7 +85,7 @@ const Hero = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="hover:text-primary h-5 w-5 transition duration-150"
                       height="1em"
